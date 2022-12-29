@@ -728,8 +728,8 @@ label {
 }
 
 .col-xs-12 {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     align-items: center;
     display: flex;
     flex-direction: column;
