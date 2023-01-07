@@ -554,9 +554,8 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    background-color: rgba(0, 0, 0, .05);
 }
 
 select {
@@ -712,7 +711,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: rgb(30,30,30)!important;
 }
 
 label {
@@ -785,7 +784,7 @@ label {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: rgb(60, 60, 60)!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -821,6 +820,7 @@ label {
 }
 
 .black-background {
+    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -838,7 +838,7 @@ label {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C!important;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -846,13 +846,14 @@ label {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C!important;
+    background: #F3976C;
     color: #FFFFFF!important;
+    color: rgb(60, 60, 60)!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F3976C!important;
-    color: #FFFFFF!important;
+    background: #c27956!important;
+    color: rgb(0, 0, 0)!important;
 }
 
 .ltc-white {
@@ -868,7 +869,7 @@ label {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #F3976C!important;
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
@@ -885,15 +886,11 @@ label {
 }
 
 .bg-banniere {
-    background-image: 
-    linear-gradient(rgba(194, 121, 86, 0.2), rgb(70, 43, 30, 0.8)),
-    url("img/agence-la-panthere.webp");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: 
-    linear-gradient(rgba(194, 121, 86, 0.2), rgb(70, 43, 30, 0.9)),
-    url("img/presentation.webp");
+    background-image: url("img/presentation.webp");
 }
 
 @media (max-width: 1024px) {
