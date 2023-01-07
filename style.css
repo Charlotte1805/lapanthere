@@ -733,6 +733,10 @@ label {
     flex-direction: column;
 }
 
+.col-xs-12 col-sm6 {
+    max-width: 320px;
+}
+
 .lightbox-caption {
     text-align: center;
 }
@@ -804,6 +808,7 @@ label {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    max-width: 320px;
 }
 
 .portfolio-row {
@@ -833,7 +838,7 @@ label {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F3976C!important;
 }
 
 .tc-white {
@@ -841,12 +846,12 @@ label {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #F3976C!important;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F3976C!important;
     color: #FFFFFF!important;
 }
 
@@ -863,7 +868,7 @@ label {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #F3976C!important;
 }
 
 .icon-dark-slate-blue {
