@@ -780,6 +780,8 @@ label {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    justify-content: center;
+    display: flex;
 }
 
 .cta-hero {
